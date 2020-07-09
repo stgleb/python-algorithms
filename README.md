@@ -1,2 +1,2 @@
 # python-algorithms
-Examples from book "Elements of programming interviews in Pythom"
+Examples from book "Elements of programming interviews in Python"
