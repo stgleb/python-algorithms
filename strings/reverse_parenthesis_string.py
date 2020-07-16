@@ -28,9 +28,12 @@ def reverse(l):
                 result.append(buf)
                 buf = []
 
+    if len(buf) > 0:
+        result.append(buf)
+
     return result
 
 
 if __name__ == "__main__":
-    s = "hello(skeeg(for)skeeg)"
+    s = "hello(skeeg(for)skeeg)world"
     print(reverse(list(s)))
