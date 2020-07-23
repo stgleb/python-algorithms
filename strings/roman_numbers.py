@@ -19,7 +19,7 @@ def value(r):
 def roman_to_decimal(number):
     i = 0
     result = 0
-    for i in range(len(number)):
+    while i < len(number):
         v1 = value(number[i])
         if i + 1 < len(number):
             v2 = value(number[i + 1])
